@@ -1,0 +1,80 @@
+//Media directives
+@media (min-width: 21.25em) and (max-width: 42.5em) {   // 340px - 680px
+    #footer #footer-sidebar li.widget {
+        width: 49%;
+    }
+}
+
+@media (min-width: 31.25em) and (max-width: 42.5em) {    // 500px - 680px
+    .message,
+    .contacts {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (min-width: 42.5em) {    // 680px
+
+    #who { font-size: 4.0em; }
+    #why { 
+        font-size: 1.5em; 
+        line-height: 1.5em;
+    }
+    
+    #aside {
+        width: 280px;
+        display: table-cell;
+        vertical-align: top;
+        padding-top: 0;
+    }
+
+    #aside.right-sidebar {
+        padding-left: 20px;
+    }
+    
+    #aside.left-sidebar {
+        padding-right: 20px;
+    }
+    
+    .row-with-sidebar {
+        display: table;
+        table-layout: fixed;
+        .cell {
+            display: table-cell;
+            width: 100%;
+        }
+    }
+      
+    #footer #footer-sidebar li.widget {
+        width: 24%;
+    }
+}
+
+/*=================================================
+            Bootstrap 3 Media Queries             
+==================================================*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {    // 20em (with base font size 16px)
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {    // 30em : $screen-xs (depricated)
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {    // 48em : $screen-sm
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {    // 62em : $screen-md
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {   // 75em : $screen-lg
+
+}

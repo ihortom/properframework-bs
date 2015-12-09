@@ -1,0 +1,93 @@
+/***** NAVIGATOR *****/
+$nav-link-padding: 10px;
+
+#nav {
+    width: 100%;
+    background-color: transparent;
+    font: $nav-default-font;
+    margin: 0;
+}
+
+#content ul.sidebar,
+.menu {
+    list-style-type: none;
+    .sub-menu {
+        list-style-type: none;
+    }
+} 
+
+#navbar {
+    margin: 0;
+    background-color: #222;
+    border-color: #090909;
+    @media only screen and (min-width: 28.75em) and (max-width: 48em) {
+        width: $navbar-width-md;
+        position: absolute;
+        right: 0px;
+        z-index: 100;
+    }
+    @media only screen and (min-width: 48em) { 
+        width: 100%;
+        position: initial;
+        height: 2 * $nav-link-padding + $line-height-computed !important;
+        &.middle {
+            text-align: center;
+        }
+    }
+}
+//Bootstrap adjustment
+.navbar {
+    min-height: 0;
+    border: 0;
+    margin-bottom: 0;
+}
+.navbar-brand {
+    padding: $nav-link-padding 15px;
+    height: auto;
+    font-family: "Eras Bd BT","Open Sans",Verdana,Helvetica,Tahoma,Arial,sans-serif;
+    @media only screen and (min-width: 28.75em) {
+        display: none;
+    }
+}
+#btn-container {
+    width: 45px;
+    padding: 0 0 8px 0;
+    margin: 8px 15px 0;
+    float: right;
+}
+.navbar-toggle {
+    padding: 6px $nav-link-padding;
+    margin: 0;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: $theme-container-color;
+}
+.dropdown-menu {
+    padding: 0;
+    > li > a {
+        padding: .5em 1.25em;
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    .navbar {
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        -o-border-radius: 0;
+        -ms-border-radius: 0;
+        border-radius: 0;
+    }
+    .navbar-nav {
+        float: none;
+        display: inline-block;
+        >li>a {
+            padding-top: $nav-link-padding;
+            padding-bottom: $nav-link-padding;
+        }
+    }
+    .navbar-header {
+        display: none;
+    }
+}

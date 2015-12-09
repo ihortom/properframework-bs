@@ -1,0 +1,15 @@
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.glyphicon:before {
+    padding-right: 10px;
+}
+
+@media (min-width: $screen-sm) {
+    .lead {
+        font-family: $default-font-family;
+        font-size: 1.1em;
+    }
+}
