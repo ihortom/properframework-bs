@@ -30,7 +30,7 @@ function pweb_comments ($comment, $args, $depth) {
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-lg-10 col-lg-offset-2">
+                <div class="col-sm-12 col-md-10 col-md-offset-2">
                     <div class="comment-text">
                         <?php if ($comment->comment_approved == '0') : ?>
                                  <br /><em><?php _e('Your comment is awaiting approval.','properweb') ?></em>
