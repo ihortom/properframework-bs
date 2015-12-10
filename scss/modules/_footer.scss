@@ -11,6 +11,9 @@
     a {
         text-decoration: none;
         color: $secondary-color;
+        &:hover {
+            color: $link-hover-color;
+        }
     }
     #footer-sidebar {
         color: $secondary-color;
@@ -47,6 +50,9 @@
     a {
         text-decoration: none;
         color: $footer-default-text-color;
+        &:hover {
+            border-bottom: 1px dotted $footer-default-text-color;
+        }
     }
 }
 

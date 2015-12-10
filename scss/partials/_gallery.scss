@@ -1,19 +1,23 @@
 //Gallery
 
-/*#gallery {
-    padding-top: 7px;
-    img {
-        margin: 0 5px;
-        &:hover {
-            border-color: $theme-container-color !important;
-        }
-    }
-}*/
-//overwrite wordpress rules
+//overwrite and set wordpress rules
 .gallery {
     text-align: center !important;
+    padding-bottom: $box-spacing;
     .gallery-item {
         display: inline-block !important;
         float: none !important;
+        width: auto !important;
+        padding: 8px;
+        margin: 0 !important;
+        .gallery-icon a {
+            display: block;
+        }
+        &:hover {
+            background-color: $alert-info-bg;
+        }
+    }
+    .gallery-caption {
+        display: none;
     }
 }

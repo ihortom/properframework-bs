@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2015-11-21 02:15-0600\n"
-"PO-Revision-Date: 2015-11-21 02:19-0600\n"
+"POT-Creation-Date: 2015-12-09 20:23-0600\n"
+"PO-Revision-Date: 2015-12-09 20:23-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
 "Language: ru_RU\n"
@@ -62,7 +62,7 @@ msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
 "Вы должны <a href=\"%s\">авторизоваться</a>, чтобы оставить комментарий."
 
-#: comments.php:27
+#: comments.php:28
 #, php-format
 msgid "%1$s comment"
 msgid_plural "%1$s comments"
@@ -70,27 +70,27 @@ msgstr[0] "%1$s комментарий"
 msgstr[1] "%1$s комментария"
 msgstr[2] "%1$s комментариев"
 
-#: comments.php:56
+#: comments.php:57
 msgid "There are no comments yet. Be the first to leave a comment."
 msgstr "Ни одного комментария никем оставлено еще не было. Будьте первыми."
 
-#: comments.php:59 functions/gbook.php:63
+#: comments.php:60 functions/gbook.php:63
 msgid "Comments are closed."
 msgstr "Комментарии закрыты."
 
-#: footer.php:34
+#: footer.php:29
 msgid "All rights reserved"
 msgstr "Все права защищены"
 
-#: footer.php:34
+#: footer.php:29
 msgid "Developed by"
 msgstr "Разработка"
 
-#: functions.php:115
+#: functions.php:123
 msgid "till "
 msgstr "до "
 
-#: functions.php:138
+#: functions.php:147
 msgid "Promotion:"
 msgstr "Акция:"
 
@@ -118,11 +118,11 @@ msgstr "Это год отобразится в основании страни�
 msgid "Read More"
 msgstr "Читать далее"
 
-#: functions/comments.php:20
+#: functions/comments.php:27
 msgid "(Edit)"
 msgstr "(Редактировать)"
 
-#: functions/comments.php:29
+#: functions/comments.php:36
 msgid "Your comment is awaiting approval."
 msgstr "Ваш комментарий поставлен на одобрение."
 
@@ -150,7 +150,7 @@ msgstr "Ни одной записи никем оставлено еще не �
 msgid "Comments are not enabled."
 msgstr "Комментарии отключены"
 
-#: functions/menu-walkers.php:46
+#: functions/menu-walkers.php:45
 msgid "Back"
 msgstr "Назад"
 
@@ -213,11 +213,11 @@ msgstr "Следующий"
 msgid "Posts navigation"
 msgstr "Навигация постов"
 
-#: functions/pagination.php:184
+#: functions/pagination.php:182
 msgid " Previous"
 msgstr "Предыдущий"
 
-#: functions/pagination.php:185
+#: functions/pagination.php:183
 msgid "Next "
 msgstr "Следующий "
 
@@ -279,28 +279,23 @@ msgstr ""
 "Ваш e-mail не будет передан третьим лицам. Все поля обязательны для "
 "заполнения."
 
-#: parts/comments-form.php:14
+#: parts/comments-form.php:16
 msgid "Name:"
 msgstr "Имя:"
 
-#: parts/comments-form.php:19
+#: parts/comments-form.php:27
 msgid "Email:"
 msgstr "Эл. почта:"
 
-#: parts/comments-form.php:27
+#: parts/comments-form.php:40
 msgid "Message:"
 msgstr "Сообщение:"
 
-#: parts/comments-form.php:32
-#, php-format
-msgid ""
-"<p class=\"lead\"><small><strong>HTML:</strong> You can use these tags:</"
-"small></p><p><small><code>%s</code></small></p>"
-msgstr ""
-"<p class=\"lead\"><small><strong>HTML:</strong> Вы можете использовать эти "
-"теги:</small></p><p><small><code>%s</code></small></p>"
+#: parts/comments-form.php:47
+msgid "Allowed HTML tags"
+msgstr "Разрешены HTML теги:"
 
-#: parts/comments-form.php:43
+#: parts/comments-form.php:63
 msgid "Submit"
 msgstr "Отправить"
 
@@ -352,15 +347,15 @@ msgstr "Опубликовано"
 msgid "Comments"
 msgstr "Комментарии"
 
-#: taxonomy-pweb_post_type-news.php:37
+#: taxonomy-pweb_post_type-news.php:38
 msgid "No news"
 msgstr "Новостей нет"
 
-#: taxonomy-pweb_post_type-news.php:38
+#: taxonomy-pweb_post_type-news.php:39
 msgid "We currently have no news to share"
 msgstr "В настоящее время у нас нет новостей"
 
-#: taxonomy-pweb_post_type-news.php:39
+#: taxonomy-pweb_post_type-news.php:40
 msgid "A news article will appear soon"
 msgstr "Новости появятся скоро"
 
@@ -375,6 +370,16 @@ msgstr "В настоящий момент акции/скидки не пров
 #: taxonomy-pweb_post_type-promo.php:25
 msgid "Please, come back soon."
 msgstr "Пожалуста, возвращайтесь на эту страницу позднее."
+
+#~ msgid "<div class=\"popover-content\"><small><code>%s</code></small></div>"
+#~ msgstr "<div class=\"popover-content\"><small><code>%s</code></small></div>"
+
+#~ msgid ""
+#~ "<p class=\"lead\"><small><strong>HTML:</strong> You can use these tags:</"
+#~ "small></p><p><small><code>%s</code></small></p>"
+#~ msgstr ""
+#~ "<p class=\"lead\"><small><strong>HTML:</strong> Вы можете использовать "
+#~ "эти теги:</small></p><p><small><code>%s</code></small></p>"
 
 #~ msgid "One comment"
 #~ msgid_plural "%1$s comments"

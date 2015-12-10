@@ -23,8 +23,8 @@
                     // Previous/next page navigation.
                     pweb_posts_pagination( array(
                             'mid_size'      => 2,
-                            'prev_text'     => '<i class="fa fa-angle-double-left"></i>',
-                            'next_text'     => '<i class="fa fa-angle-double-right"></i>'
+                            'prev_text'     => '<span class="glyphicon glyphicon-chevron-left"></span>',
+                            'next_text'     => '<span class="fglyphicon glyphicon-chevron-right"></span>'
                     ) );
                 ?>
             <?php else : ?>

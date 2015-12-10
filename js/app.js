@@ -18,13 +18,23 @@ jQuery(document).ready(
         // handle HTML popovers
         $('[rel="popover"]').popover({
             container: 'body',
+            placement: 'auto right',
             html: true,
+            title: function () {
+                return $('.popover-title').html();
+            },
             content: function () {
-                var clone = $($(this).data('popover-content')).clone(true).show();
-                return clone;
+                return $('.popover-content').html();
             }
         }).on('click hover focus',function(e) {e.preventDefault(); });
-    
+        
+        $(document).on( 'click', '.popover-close',
+            function() {
+                $(this).parents(".popover").popover('hide');
+            }
+        );
+        
+        // add hover effect to navbar-toogle
         $('#btn-container, #navbar').hover(
             function() {
                 if (!$('#navbar').is(':visible')) {

@@ -9,11 +9,6 @@
  * @since ProperFramework 1.0
  */
 ?>
-        
-                    <!-- close the off-canvas menu -->
-                    <a class="exit-off-canvas"></a>
-                </div>
-            </div>
 
         </div><!-- #content -->
         

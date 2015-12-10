@@ -2,7 +2,7 @@
 
 /**
  * Return a paginated navigation to next/previous set of posts,
- * when applicable (utilizing 'foundation' markup).
+ * when applicable (utilizing Bootstrap markup).
  *
  * @since 1.0
  *
@@ -72,12 +72,10 @@ function _pweb_navigation_markup( $links, $class = 'posts-navigation', $screen_r
     }
 
     $template = '
-        <nav class="navigation %1$s" role="navigation">
-            <!--<h2 class="screen-reader-text">%2$s</h2>-->
-            <div class="pagination-centered">
+            <div class="text-center">
+                <!--<h2 class="sr-only">%2$s</h2>-->
                 <ul class="pagination">%3$s</ul>
-            </div>
-        </nav>';
+            </div>';
 
     return sprintf( $template, sanitize_html_class( $class ), esc_html( $screen_reader_text ), $links );
 }
@@ -280,13 +278,13 @@ function pweb_paginate_links( $args = '' ) {
                 //return $page_links;
                 foreach ( $page_links as $page_link ) {
                     if (preg_match('/<span class="page-numbers current">/', $page_link)) {
-                        $r .= "<li class='current'><a href='#'>" . $page_link . "</a></li>\n";
+                        $r .= "<li class='active'><a href='#'>" . $page_link . "</a></li>\n";
                     }
                     else if (preg_match('/(next)|(prev)/', $page_link)) {
                         $r .= "<li class='arrow'>" . $page_link . "</li>\n";
                     }
                     else if (preg_match('/<span class="page-numbers dots">/', $page_link)) {
-                        $r .= "<li class='unavailable'><a href='#'>" . $page_link . "</a></li>\n";
+                        $r .= "<li class='disabled'><a href='#'>" . $page_link . "</a></li>\n";
                     }
                     else {
                         $r .= "<li>" . $page_link . "</li>\n";

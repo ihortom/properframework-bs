@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2015-11-21 02:15-0600\n"
+"POT-Creation-Date: 2015-12-09 20:22-0600\n"
 "PO-Revision-Date: 2015-11-12 17:18-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
@@ -60,7 +60,7 @@ msgstr ""
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
 
-#: comments.php:27
+#: comments.php:28
 #, php-format
 msgid "%1$s comment"
 msgid_plural "%1$s comments"
@@ -68,27 +68,27 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: comments.php:56
+#: comments.php:57
 msgid "There are no comments yet. Be the first to leave a comment."
 msgstr ""
 
-#: comments.php:59 functions/gbook.php:63
+#: comments.php:60 functions/gbook.php:63
 msgid "Comments are closed."
 msgstr ""
 
-#: footer.php:34
+#: footer.php:29
 msgid "All rights reserved"
 msgstr ""
 
-#: footer.php:34
+#: footer.php:29
 msgid "Developed by"
 msgstr ""
 
-#: functions.php:115
+#: functions.php:123
 msgid "till "
 msgstr ""
 
-#: functions.php:138
+#: functions.php:147
 msgid "Promotion:"
 msgstr ""
 
@@ -116,11 +116,11 @@ msgstr ""
 msgid "Read More"
 msgstr ""
 
-#: functions/comments.php:20
+#: functions/comments.php:27
 msgid "(Edit)"
 msgstr ""
 
-#: functions/comments.php:29
+#: functions/comments.php:36
 msgid "Your comment is awaiting approval."
 msgstr ""
 
@@ -148,7 +148,7 @@ msgstr ""
 msgid "Comments are not enabled."
 msgstr ""
 
-#: functions/menu-walkers.php:46
+#: functions/menu-walkers.php:45
 msgid "Back"
 msgstr ""
 
@@ -211,11 +211,11 @@ msgstr ""
 msgid "Posts navigation"
 msgstr ""
 
-#: functions/pagination.php:184
+#: functions/pagination.php:182
 msgid " Previous"
 msgstr ""
 
-#: functions/pagination.php:185
+#: functions/pagination.php:183
 msgid "Next "
 msgstr ""
 
@@ -275,26 +275,23 @@ msgstr ""
 msgid "Your e-mail will not be shared. All the fields are mandatory."
 msgstr ""
 
-#: parts/comments-form.php:14
+#: parts/comments-form.php:16
 msgid "Name:"
 msgstr ""
 
-#: parts/comments-form.php:19
+#: parts/comments-form.php:27
 msgid "Email:"
 msgstr ""
 
-#: parts/comments-form.php:27
+#: parts/comments-form.php:40
 msgid "Message:"
 msgstr ""
 
-#: parts/comments-form.php:32
-#, php-format
-msgid ""
-"<p class=\"lead\"><small><strong>HTML:</strong> You can use these tags:</"
-"small></p><p><small><code>%s</code></small></p>"
+#: parts/comments-form.php:47
+msgid "Allowed HTML tags"
 msgstr ""
 
-#: parts/comments-form.php:43
+#: parts/comments-form.php:63
 msgid "Submit"
 msgstr ""
 
@@ -346,15 +343,15 @@ msgstr ""
 msgid "Comments"
 msgstr ""
 
-#: taxonomy-pweb_post_type-news.php:37
+#: taxonomy-pweb_post_type-news.php:38
 msgid "No news"
 msgstr ""
 
-#: taxonomy-pweb_post_type-news.php:38
+#: taxonomy-pweb_post_type-news.php:39
 msgid "We currently have no news to share"
 msgstr ""
 
-#: taxonomy-pweb_post_type-news.php:39
+#: taxonomy-pweb_post_type-news.php:40
 msgid "A news article will appear soon"
 msgstr ""
 

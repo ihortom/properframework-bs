@@ -4,19 +4,14 @@
     color: #000;
     padding: 0;
     font: $default-font;
-    h3 {		// sub-title
-        font-size: 1em;
-        font-weight: bold;
-        padding: 10px 0 10px;
-    }
     img {
         display: inline-block;
         border-radius: 2px;
         -moz-border-radius: 2px;
         -webkit-border-radius: 2px;
-        box-shadow: 2px 2px 2px rgba(34, 25, 25, 0.4);
-        -moz-box-shadow: 2px 2px 2px rgba(34,25,25,0.4);
-        -webkit-box-shadow: 2px 2px 2px rgba(34, 25, 25, 0.4);
+        box-shadow: 2px 2px 2px $theme-container-color;
+        -moz-box-shadow: 2px 2px 2px $theme-container-color;
+        -webkit-box-shadow: 2px 2px 2px $theme-container-color;
     }
     img.alignright {
         border: 1px solid $theme-container-color;
@@ -114,7 +109,6 @@ h2.title {	// title
 
 .to-article {
     text-decoration: none;
-    border-bottom: 1px dotted #FFF;
     color: #FFF;
     &:hover {
         border-bottom: 1px dotted #DDD;
@@ -144,6 +138,17 @@ h2.title {	// title
     margin-bottom: 1.25rem;
 }
 
+.popover-close {
+    display: block;
+    float: right;
+    color: $popover-border-color;
+    cursor: pointer;
+    .glyphicon:before {
+        padding-right: 0;
+        margin-left: 14px;
+    }
+}
+
 //wordpress classes
 .alignright {
     float: right;
@@ -151,11 +156,4 @@ h2.title {	// title
 	
 .alignleft {
     float: left;
-}
-
-#msg_tags p {
-    margin-bottom: 0;
-    &.lead {
-        margin-bottom: .5em;
-    }
 }

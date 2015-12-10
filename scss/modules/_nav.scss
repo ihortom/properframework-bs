@@ -40,6 +40,9 @@ $nav-link-padding: 10px;
     min-height: 0;
     border: 0;
     margin-bottom: 0;
+    a {
+        border-bottom: 0;
+    }
 }
 .navbar-brand {
     padding: $nav-link-padding 15px;

@@ -38,12 +38,16 @@
             <div id="message" class="row no-gutters">
                 <div class="col-md-12">
                     <label for="comment"><?php _e('Message:','properweb'); ?> *
-                        <a href="#" rel="popover" data-popover-content="#msg_tags" data-trigger="click hover focus">
+                        <a href="#" rel="popover" tabindex="0" data-popover-content="#msg_tags" data-trigger="click hover focus">
                            <span class="glyphicon glyphicon-info-sign"></span></a>
                     </label>
                 </div>
-                <div id="msg_tags" style="display: none;">
-                    <?php printf(__('<p class="lead"><small><strong>HTML:</strong> You can use these tags:</small></p><p><small><code>%s</code></small></p>','properweb'), allowed_tags()); ?>
+                <div id="msg_tags" class="hide">
+                    <div class="popover-title">
+                        <?php _e('Allowed HTML tags','properweb'); ?>
+                        <span class="popover-close"><span class="glyphicon glyphicon-remove"></span></span>
+                    </div>
+                    <?php printf('<div class="popover-content"><small><code>%s</code></small></div>', allowed_tags()); ?>
                 </div>
                 <div class="col-md-12">
                     <textarea name="comment" id="comment" cols="40" rows="6" tabindex="4"></textarea>
