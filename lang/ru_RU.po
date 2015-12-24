@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2015-12-09 20:23-0600\n"
-"PO-Revision-Date: 2015-12-09 20:23-0600\n"
+"POT-Creation-Date: 2015-12-23 23:58-0600\n"
+"PO-Revision-Date: 2015-12-23 23:59-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
 "Language: ru_RU\n"
@@ -91,8 +91,8 @@ msgid "till "
 msgstr "до "
 
 #: functions.php:147
-msgid "Promotion:"
-msgstr "Акция:"
+msgid "Promotion"
+msgstr "Акция"
 
 #: functions/admin.php:10
 msgid "Organization/Business"
@@ -150,10 +150,6 @@ msgstr "Ни одной записи никем оставлено еще не �
 msgid "Comments are not enabled."
 msgstr "Комментарии отключены"
 
-#: functions/menu-walkers.php:45
-msgid "Back"
-msgstr "Назад"
-
 #: functions/menu.php:6
 msgid "Above the content"
 msgstr "Над основным контентом"
@@ -200,6 +196,10 @@ msgid ""
 msgstr ""
 "Введите текст, который бы вы хотели, чтобы всплыл на это странице (HTML код, "
 "шорт-код)."
+
+#: functions/meta.php:104
+msgid "Example"
+msgstr "Пример"
 
 #: functions/pagination.php:24
 msgid "Previous"
@@ -370,6 +370,12 @@ msgstr "В настоящий момент акции/скидки не пров
 #: taxonomy-pweb_post_type-promo.php:25
 msgid "Please, come back soon."
 msgstr "Пожалуста, возвращайтесь на эту страницу позднее."
+
+#~ msgid "Promotion:"
+#~ msgstr "Акция:"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
 
 #~ msgid "<div class=\"popover-content\"><small><code>%s</code></small></div>"
 #~ msgstr "<div class=\"popover-content\"><small><code>%s</code></small></div>"

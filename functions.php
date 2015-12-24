@@ -144,11 +144,21 @@ function pweb_promo_flash( $atts ) {
     
     $promo_post = get_posts( array( 'include' => array($atts['id'])) );
     
-    return '<p class="flashref">'.__('Promotion:','properweb').' <a href="#" data-reveal-id="flash">'.$promo_post[0]->post_title.'</a></p>'. 
-    '<div id="flash" class="reveal-modal box article full-width" data-reveal aria-labelledby="flashTitle" aria-hidden="true" role="dialog">
-        <h2 id="flashTitle" class="title">'.strip_tags($promo_post[0]->post_title).'</h2>' .
-        wpautop( do_shortcode($promo_post[0]->post_content) ) .
-        '<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    return '<p class="flashref">'.__('Promotion','properweb').': <a href="#flash" data-toggle="modal">'.$promo_post[0]->post_title.'</a></p>'. 
+    '<div id="flash" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="flashTitle">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </button>
+                    <h2 id="flashTitle" class="title modal-title">'.strip_tags($promo_post[0]->post_title).'</h2>                   
+                </div>
+                <div class="modal-body">'.
+                    wpautop( do_shortcode($promo_post[0]->post_content) ) .
+                '</div>
+            </div>
+        </div>
     </div>';
 }
 

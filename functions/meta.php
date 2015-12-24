@@ -100,7 +100,8 @@ function pweb_register_meta_boxes( $meta_boxes )
             // TEXTAREA
             array(
                 'name' => __( 'Promo flash', 'properweb' ),
-                'desc' => __( 'Flash promo you would like to appear on the page (HTML code, shortcode).', 'properweb' ),
+                'desc' => __( 'Flash promo you would like to appear on the page (HTML code, shortcode).', 'properweb' ).
+                            '<br>'.__('Example','properweb').': [promo_flash id=148]',
                 'id'   => "{$prefix}flash",
                 'type' => 'textarea',
                 'cols' => 20,

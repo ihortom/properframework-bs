@@ -30,5 +30,10 @@
         </div>
     </div><!-- #wrap -->
     <?php wp_footer(); ?>
+    <?php if ( function_exists('rwmb_meta') && rwmb_meta('pweb_flash') ) : ?>
+    <script>
+        $('#flash').modal('show');
+    </script>
+    <?php endif; ?>
 </body>
 </html>

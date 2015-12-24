@@ -36,6 +36,23 @@
     font-weight: bold;
 }
 
-#flash.reveal-modal .close-reveal-modal {
-    top: 0;
+#flashTitle {
+    margin: -15px;
+/*    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;*/
+}
+
+.modal-header {
+    padding-bottom: 5px;
+    border-bottom: 0;
+    .close {
+        margin-top: -12px;
+        .glyphicon:before {
+            padding: 0;
+        }
+    }
+}
+
+.modal-footer {
+    text-align: center;
 }

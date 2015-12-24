@@ -1,8 +1,10 @@
 jQuery(document).ready(
     function($) {
         
+        //promo popup
         $('[data-reveal-id="flash"]').trigger('click');
         
+        //dropdown hover on large screen
         $('.nav li.dropdown').hover(
             function() {
                 if (!$('.navbar-header').is(':visible')) {
@@ -15,6 +17,7 @@ jQuery(document).ready(
                 }
             }
         );
+        
         // handle HTML popovers
         $('[rel="popover"]').popover({
             container: 'body',
@@ -31,20 +34,6 @@ jQuery(document).ready(
         $(document).on( 'click', '.popover-close',
             function() {
                 $(this).parents(".popover").popover('hide');
-            }
-        );
-        
-        // add hover effect to navbar-toogle
-        $('#btn-container, #navbar').hover(
-            function() {
-                if (!$('#navbar').is(':visible')) {
-                    $('.navbar-toggle').trigger('click');
-                }
-            },
-            function() {
-                if (!$('#navbar:hover, #btn-container:hover').length) {
-                    $('.navbar-toggle').trigger('click');
-                }
             }
         );
     }

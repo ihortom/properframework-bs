@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2015-12-09 20:22-0600\n"
+"POT-Creation-Date: 2015-12-23 23:58-0600\n"
 "PO-Revision-Date: 2015-11-12 17:18-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
@@ -89,7 +89,7 @@ msgid "till "
 msgstr ""
 
 #: functions.php:147
-msgid "Promotion:"
+msgid "Promotion"
 msgstr ""
 
 #: functions/admin.php:10
@@ -148,10 +148,6 @@ msgstr ""
 msgid "Comments are not enabled."
 msgstr ""
 
-#: functions/menu-walkers.php:45
-msgid "Back"
-msgstr ""
-
 #: functions/menu.php:6
 msgid "Above the content"
 msgstr ""
@@ -197,6 +193,10 @@ msgstr ""
 #: functions/meta.php:103
 msgid ""
 "Flash promo you would like to appear on the page (HTML code, shortcode)."
+msgstr ""
+
+#: functions/meta.php:104
+msgid "Example"
 msgstr ""
 
 #: functions/pagination.php:24
