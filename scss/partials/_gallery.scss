@@ -13,11 +13,20 @@
         .gallery-icon a {
             display: block;
         }
-        &:hover {
-            background-color: $alert-info-bg;
-        }
     }
     .gallery-caption {
         display: none;
+    }
+    img {
+        transition: 300ms linear;
+        box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 3px 3px 3px $theme-container-color !important;
+            -moz-box-shadow: 3px 3px 3px $theme-container-color !important;
+            -webkit-box-shadow: 3px 3px 3px $theme-container-color !important;
+        }
     }
 }

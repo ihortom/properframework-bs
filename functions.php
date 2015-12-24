@@ -144,9 +144,11 @@ function pweb_promo_flash( $atts ) {
     
     $promo_post = get_posts( array( 'include' => array($atts['id'])) );
     
-    return '<div class="alert alert-info alert-promo alert-dismissible" role="alert">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <p class="flashref">'.__('Promotion','properweb').': <a href="#flash" data-toggle="modal">«'.$promo_post[0]->post_title.'»</a></p></div>
+    return '
+        <div class="alert alert-info alert-promo alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <p class="flashref">'.__('Promotion','properweb').': <a href="#flash" class="alert-link" data-toggle="modal">«'.$promo_post[0]->post_title.'»</a></p>
+        </div>
         <div id="flash" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="flashTitle">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
