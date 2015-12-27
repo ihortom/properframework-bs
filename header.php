@@ -5,8 +5,8 @@
  * Displays all of the head element and everything up until the "content" div.
  *
  * @package ProperWeb
- * @subpackage ProperFramework
- * @since ProperFramework 1.0
+ * @subpackage ProperFramework-BS
+ * @since ProperFramework-BS 1.0
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>

@@ -3,8 +3,8 @@
  * The template for displaying 404 pages (Not Found)
  *
  * @package ProperWeb
- * @subpackage ProperFramework 1.0
- * @since ProperFramework 1.0
+ * @subpackage ProperFramework-BS 1.0
+ * @since ProperFramework-BS 1.0
  */
 ?>
 <?php get_header(); ?>

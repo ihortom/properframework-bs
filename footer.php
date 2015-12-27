@@ -5,8 +5,8 @@
  * Contains the closing of the "content" div and all content after.
  *
  * @package ProperWeb
- * @subpackage ProperFramework
- * @since ProperFramework 1.0
+ * @subpackage ProperFramework-BS
+ * @since ProperFramework-BS 1.0
  */
 ?>
 

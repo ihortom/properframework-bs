@@ -3,8 +3,8 @@
  * The sidebar apearing in the search results and 404 pages
  *
  * @package ProperWeb
- * @subpackage ProperFramework
- * @since ProperFramework 1.0
+ * @subpackage ProperFramework-BS
+ * @since ProperFramework-BS 1.0
  */
  ?>
 

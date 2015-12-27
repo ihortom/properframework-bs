@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2015-12-23 23:58-0600\n"
-"PO-Revision-Date: 2015-12-23 23:59-0600\n"
+"POT-Creation-Date: 2015-12-27 16:59-0600\n"
+"PO-Revision-Date: 2015-12-27 17:02-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
 "Language: ru_RU\n"
@@ -90,7 +90,7 @@ msgstr "Разработка"
 msgid "till "
 msgstr "до "
 
-#: functions.php:147
+#: functions.php:150
 msgid "Promotion"
 msgstr "Акция"
 
@@ -154,52 +154,49 @@ msgstr "Комментарии отключены"
 msgid "Above the content"
 msgstr "Над основным контентом"
 
-#: functions/meta.php:29
-msgid "Meta tags"
-msgstr "Мета тэги"
-
-#: functions/meta.php:48
-msgid "Title"
-msgstr "Заголовок"
-
-#: functions/meta.php:52
-msgid "Meta tag \"title\". If omitted, page/post title will be used instead."
-msgstr "Мета-тэг <title>. По умолчанию изпользуется заголовок статьи/страницы."
-
-#: functions/meta.php:60
-msgid "Description"
-msgstr "Описание"
-
-#: functions/meta.php:61
-msgid "Meta tag \"description\". Recommended up to 155 characters."
-msgstr "Мета-тэг <description>. Рекоммендуемая длина до 155 символов."
-
-#: functions/meta.php:69
-msgid "Keywords"
-msgstr "Ключевые слова"
-
-#: functions/meta.php:70
-msgid "Meta tag \"keywords\". Recommended up to 170 characters (5-10 words)."
-msgstr "Мета-тэг <keywords>. Рекоммендуемая длина до 170 символов (5-10 слов)."
-
-#: functions/meta.php:84
+#: functions/meta.php:49
 msgid "Promo"
 msgstr "Акция"
 
-#: functions/meta.php:102
+#: functions/meta.php:77
 msgid "Promo flash"
 msgstr "Всплывающая акция"
 
-#: functions/meta.php:103
-msgid ""
-"Flash promo you would like to appear on the page (HTML code, shortcode)."
-msgstr ""
-"Введите текст, который бы вы хотели, чтобы всплыл на это странице (HTML код, "
-"шорт-код)."
+#: functions/meta.php:78
+msgid "Flash promo you would like to appear on the page."
+msgstr "Промо-акция, которую вы бы хотели презентовать на этой странице."
 
-#: functions/meta.php:104
-msgid "Example"
-msgstr "Пример"
+#: functions/meta.php:86
+msgid "--Select promo--"
+msgstr "--Выбрать промо-акцию--"
+
+#: functions/meta.php:97
+msgid "Meta tags"
+msgstr "Мета тэги"
+
+#: functions/meta.php:116
+msgid "Title"
+msgstr "Заголовок"
+
+#: functions/meta.php:120
+msgid "Meta tag \"title\". If omitted, page/post title will be used instead."
+msgstr "Мета-тэг <title>. По умолчанию изпользуется заголовок статьи/страницы."
+
+#: functions/meta.php:128
+msgid "Description"
+msgstr "Описание"
+
+#: functions/meta.php:129
+msgid "Meta tag \"description\". Recommended up to 155 characters."
+msgstr "Мета-тэг <description>. Рекоммендуемая длина до 155 символов."
+
+#: functions/meta.php:137
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: functions/meta.php:138
+msgid "Meta tag \"keywords\". Recommended up to 170 characters (5-10 words)."
+msgstr "Мета-тэг <keywords>. Рекоммендуемая длина до 170 символов (5-10 слов)."
 
 #: functions/pagination.php:24
 msgid "Previous"
@@ -370,6 +367,15 @@ msgstr "В настоящий момент акции/скидки не пров
 #: taxonomy-pweb_post_type-promo.php:25
 msgid "Please, come back soon."
 msgstr "Пожалуста, возвращайтесь на эту страницу позднее."
+
+#~ msgid ""
+#~ "Flash promo you would like to appear on the page (HTML code, shortcode)."
+#~ msgstr ""
+#~ "Введите текст, который бы вы хотели, чтобы всплыл на это странице (HTML "
+#~ "код, шорт-код)."
+
+#~ msgid "Example"
+#~ msgstr "Пример"
 
 #~ msgid "Promotion:"
 #~ msgstr "Акция:"

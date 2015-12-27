@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2015-12-23 23:58-0600\n"
+"POT-Creation-Date: 2015-12-27 17:02-0600\n"
 "PO-Revision-Date: 2015-11-12 17:18-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
@@ -88,7 +88,7 @@ msgstr ""
 msgid "till "
 msgstr ""
 
-#: functions.php:147
+#: functions.php:150
 msgid "Promotion"
 msgstr ""
 
@@ -152,51 +152,50 @@ msgstr ""
 msgid "Above the content"
 msgstr ""
 
-#: functions/meta.php:29
+#: functions/meta.php:49
+msgid "Promo"
+msgstr ""
+
+#: functions/meta.php:77
+msgid "Promo flash"
+msgstr ""
+
+#: functions/meta.php:78
+msgid "Flash promo you would like to appear on the page."
+msgstr ""
+
+#: functions/meta.php:86
+msgid "--Select promo--"
+msgstr ""
+
+#: functions/meta.php:97
 msgid "Meta tags"
 msgstr ""
 
-#: functions/meta.php:48
+#: functions/meta.php:116
 msgid "Title"
 msgstr ""
 
-#: functions/meta.php:52
+#: functions/meta.php:120
 msgid ""
 "Meta tag \"title\". If omitted, page/post title will be used instead."
 msgstr ""
 
-#: functions/meta.php:60
+#: functions/meta.php:128
 msgid "Description"
 msgstr ""
 
-#: functions/meta.php:61
+#: functions/meta.php:129
 msgid "Meta tag \"description\". Recommended up to 155 characters."
 msgstr ""
 
-#: functions/meta.php:69
+#: functions/meta.php:137
 msgid "Keywords"
 msgstr ""
 
-#: functions/meta.php:70
+#: functions/meta.php:138
 msgid ""
 "Meta tag \"keywords\". Recommended up to 170 characters (5-10 words)."
-msgstr ""
-
-#: functions/meta.php:84
-msgid "Promo"
-msgstr ""
-
-#: functions/meta.php:102
-msgid "Promo flash"
-msgstr ""
-
-#: functions/meta.php:103
-msgid ""
-"Flash promo you would like to appear on the page (HTML code, shortcode)."
-msgstr ""
-
-#: functions/meta.php:104
-msgid "Example"
 msgstr ""
 
 #: functions/pagination.php:24
