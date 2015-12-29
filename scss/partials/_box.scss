@@ -32,6 +32,9 @@
 
 .alert-promo {
     margin: 0;
+    a:hover {
+        border-bottom: 1px dotted #23527c;
+    }
 }
 
 .flashref {

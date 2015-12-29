@@ -33,6 +33,12 @@
             font-weight: 400;
             font-family: $footer-default-font-family;
             font-size: $footer-default-font-size;
+            @media (min-width: 21.25em) and (max-width: 42.5em) {   // 340px - 680px
+                width: 49%;
+            }
+            @media (min-width: 42.5em) {
+                width: 24%;
+            }
         }
         ul, ol, dl {
             font-size: $footer-default-font-size;

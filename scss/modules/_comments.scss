@@ -130,3 +130,11 @@ span.author {
 #comments .children {
     margin-left: 10%;
 }
+
+@media (min-width: 31.25em) and (max-width: 42.5em) {    // 500px - 680px
+    .message,
+    .contacts {
+        width: 50%;
+        float: left;
+    }
+}

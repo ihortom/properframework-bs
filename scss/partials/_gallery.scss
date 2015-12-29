@@ -8,7 +8,7 @@
         display: inline-block !important;
         float: none !important;
         width: auto !important;
-        padding: 8px;
+        padding: 5px;
         margin: 0 !important;
         .gallery-icon a {
             display: block;
@@ -19,14 +19,24 @@
     }
     img {
         transition: 300ms linear;
+        -moz-transition: 300ms linear;
+        -webkit-transition: 300ms linear;
+        -o-transition: 300ms linear;
         box-shadow: none !important;
         -moz-box-shadow: none !important;
         -webkit-box-shadow: none !important;
         &:hover {
             transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            -webkit-transform: scale(1.05);
+            -moz-transform: scale(1.05);
+            -o-transform: scale(1.05);
             box-shadow: 3px 3px 3px $theme-container-color !important;
             -moz-box-shadow: 3px 3px 3px $theme-container-color !important;
             -webkit-box-shadow: 3px 3px 3px $theme-container-color !important;
         }
+    }
+    br {
+        display: none;  //remove row separation in gallery for responsiveness sake
     }
 }

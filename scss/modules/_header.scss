@@ -8,7 +8,7 @@
 
 #header {
     width: 100%;
-    display: none;    
+    display: none;
     img {
         margin: 0;
         padding: 0;
@@ -31,6 +31,9 @@
     text-align: center;
     color: #555;
     text-shadow: 3px 3px 5px #777;
+    @media (min-width: 42.5em) {
+        font-size: 4.0em;
+    }
 }
 
 #what {
@@ -47,6 +50,10 @@
     text-align: center;
     font: italic normal 1.5em/1.2em 'Eras Bk BT', $substitute-font-family;
     text-shadow: 3px 3px 5px #777;
+    @media (min-width: 42.5em) {
+        font-size: 1.5em; 
+        line-height: 1.5em;
+    }
 }
 
 .breadcrumb {

@@ -21,7 +21,7 @@ jQuery(document).ready(
         // handle HTML popovers
         $('[rel="popover"]').popover({
             container: 'body',
-            placement: 'auto right',
+            placement: 'top',
             html: true,
             title: function () {
                 return $('.popover-title').html();
