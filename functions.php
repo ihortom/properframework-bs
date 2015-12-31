@@ -49,6 +49,9 @@ require_once(get_template_directory().'/functions/comments.php');
 // Custom search form
 require_once(get_template_directory().'/functions/search-form.php');
 
+// Custom paginated gallery
+require_once(get_template_directory().'/functions/gallery.php');
+
 /* SHORTCODES */
 
 //Create shortcode to add Guest Book on the page
