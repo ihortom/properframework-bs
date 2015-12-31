@@ -42,10 +42,6 @@ jQuery(document).ready(
         var imgs_per_page = parseInt($('.gallery').attr('imgs-per-page'));
         var current_page = 1;
         
-        //$('.gallery-item').slice(imgs_per_page).hide();
-        //$('.gallery-item').slice(0,imgs_per_page).show();
-        //$('#fast-backward, #backward').addClass('disabled');
-        
         $('.gallery-fast-backward a').click(function() {
             var gallery = $(this).parents('.gallery');
             var gallery_nav = $(this).parents('.gallery-nav');
