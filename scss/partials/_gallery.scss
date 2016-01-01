@@ -6,13 +6,25 @@
     padding-bottom: $box-spacing;
     .gallery-item {
         display: inline-block;
-        padding: 5px;
+        position: relative;
+        padding: 0.125em;
+        &:hover {
+            z-index: 999;
+        }
         .gallery-icon a {
             display: block;
         }
     }
     .gallery-caption {
         display: none;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        padding: 0.3125em 0.625em 0.7em 0.3125em;
+        text-align: center;
+        color: #000;
+        text-shadow: 1px 1px 1px #fff;
+        cursor: pointer;
     }
     img {
         transition: 300ms linear;
@@ -22,12 +34,13 @@
         box-shadow: none !important;
         -moz-box-shadow: none !important;
         -webkit-box-shadow: none !important;
-        &:hover {
-            transform: scale(1.05);
-            -ms-transform: scale(1.05);
-            -webkit-transform: scale(1.05);
-            -moz-transform: scale(1.05);
-            -o-transform: scale(1.05);
+        &:hover,
+        &.hovered {
+            transform: scale(1.04);
+            -ms-transform: scale(1.04);
+            -webkit-transform: scale(1.04);
+            -moz-transform: scale(1.04);
+            -o-transform: scale(1.04);
             box-shadow: 3px 3px 3px $theme-container-color !important;
             -moz-box-shadow: 3px 3px 3px $theme-container-color !important;
             -webkit-box-shadow: 3px 3px 3px $theme-container-color !important;
@@ -56,9 +69,7 @@
     text-align: center;
     font-weight: bold;   
     .pagination {
-        margin-bottom: 0 !important;
-        margin-right: 0 !important;
-        margin-left: 0 !important;        
+        margin: 0;       
         >li {
             display: inline-block;    //IE fix
         }

@@ -29,11 +29,12 @@ function pweb_scripts_and_styles() {
     
     wp_enqueue_style(
         'bootstrap', 
-        get_template_directory_uri().'/css/bootstrap.min.css'
+        get_template_directory_uri().'/css/bootstrap.min.css',
+        array(), '3.3.6'
     );
 
     wp_enqueue_style(
-        'site-css', 
+        'site', 
         get_stylesheet_directory_uri().'/style.css'
     );
 }

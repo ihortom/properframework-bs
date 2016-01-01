@@ -133,6 +133,8 @@ function pweb_gallery_shortcode( $attr ) {
     foreach ( $attachments as $id => $attachment ) {
         $i++;
         $attr = ( trim( $attachment->post_excerpt ) ) ? array( 'aria-describedby' => "$selector-$id" ) : '';
+        $attr['class'] = 'thumbnail';   //add bootstrap class
+        
         if ( ! empty( $atts['link'] ) && 'file' === $atts['link'] ) {
                 $image_output = wp_get_attachment_link( $id, $atts['size'], false, false, false, $attr );
         } elseif ( ! empty( $atts['link'] ) && 'none' === $atts['link'] ) {

@@ -1,26 +1,26 @@
-$main-content-max-width: 1000px;
+
+//Dimansions
+$main-content-max-width: 1000px;    //same as $content_width in functions.php
+$cap-height: 230px;
+$header-height: 150px;
+$default-line-height: 1.4;
+$navbar-width-md: 15em;
 
 //Fonts
 $main-font-family: Philosopher;
-$substitute-font-family: 'Open Sans', Verdana, Helvetica, Tahoma, Arial, sans-serif;
+$substitute-font-family: 'Open Sans', Tahoma, Geneva, sans-serif;
 $default-font: normal normal 1em $main-font-family, $substitute-font-family;
 $default-font-family: $main-font-family, $substitute-font-family;
 $nav-default-font: normal bold 1em $main-font-family, $substitute-font-family;
-$input-font-family: 'Open Sans', Tahoma, Arial, sans-serif;
+$input-font-family: 'Open Sans', Tahoma, Geneva, sans-serif;
 $footer-default-font-size: .8rem;
 $footer-default-font-family: 'Open Sans', Tahoma, Arial, sans-serif;
-$footer-default-font: normal bold $font-size-base 'Open Sans', Tahoma, Arial, sans-serif;
+$footer-default-font: normal bold $font-size-base $substitute-font-family;
 
 //Colors
 $theme-container-color: #008CBA;
 $footer-default-text-color: $theme-container-color; //#936C79 - old
 $secondary-color: #333;
-
-//Dimansions
-$cap-height: 230px;
-$header-height: 150px;
-$default-line-height: 1.4;
-$navbar-width-md: 15em;
 
 //Spaces
 $box-spacing: 20px;

@@ -138,5 +138,22 @@ jQuery(document).ready(
             gallery_nav.find('.gallery_page').text(current_page.toString());
             return false;
         });
+        
+        //gallery image capture handling
+        $('.gallery-item').hover(function() {
+            $(this).children('.gallery-caption').fadeToggle();
+        });
+        $('.gallery-caption').click(function() {
+            $(this).parents('.gallery-item').find('a').trigger('click');
+            $(this).parents('.gallery-item').find('img').addClass('hovered');
+        });
+        $('.gallery-caption').hover(
+            function() {
+                $(this).parents('.gallery-item').find('img').addClass('hovered');
+            },
+            function() {
+                $(this).parents('.gallery-item').find('img').removeClass('hovered');
+            }
+        );
     }
 );
