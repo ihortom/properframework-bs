@@ -12,9 +12,6 @@
 <div class="row">
     
     <?php if(have_posts()): while(have_posts()): the_post(); ?>
-        <?php 
-            $args = array( 'post_type' => 'attachment', 'post_mime_type' => 'image' );
-            $attachment = get_posts($args); ?>
 	<div class="box full-width article article-attachment">
             <h2 class="title"><?php the_title(); ?></h2>
             <?php echo wp_get_attachment_image( get_the_ID(), 'large', false, array('class' => 'attachment img-responsive') ); ?>

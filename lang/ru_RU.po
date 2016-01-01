@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2015-12-27 16:59-0600\n"
-"PO-Revision-Date: 2015-12-27 17:02-0600\n"
+"POT-Creation-Date: 2016-01-01 02:19-0600\n"
+"PO-Revision-Date: 2016-01-01 02:20-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
 "Language: ru_RU\n"
@@ -15,29 +15,8 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2\n"
-"X-Poedit-SearchPath-0: parts\n"
-"X-Poedit-SearchPath-1: functions\n"
-"X-Poedit-SearchPath-2: 404.php\n"
-"X-Poedit-SearchPath-3: archive.php\n"
-"X-Poedit-SearchPath-4: category.php\n"
-"X-Poedit-SearchPath-5: comments.php\n"
-"X-Poedit-SearchPath-6: footer.php\n"
-"X-Poedit-SearchPath-7: front-page.php\n"
-"X-Poedit-SearchPath-8: functions.php\n"
-"X-Poedit-SearchPath-9: header.php\n"
-"X-Poedit-SearchPath-10: index.php\n"
-"X-Poedit-SearchPath-11: page.php\n"
-"X-Poedit-SearchPath-12: page-full-width.php\n"
-"X-Poedit-SearchPath-13: search.php\n"
-"X-Poedit-SearchPath-14: sidebar.php\n"
-"X-Poedit-SearchPath-15: sidebar-default.php\n"
-"X-Poedit-SearchPath-16: sidebar-search.php\n"
-"X-Poedit-SearchPath-17: single.php\n"
-"X-Poedit-SearchPath-18: single-news.php\n"
-"X-Poedit-SearchPath-19: single-promo.php\n"
-"X-Poedit-SearchPath-20: taxonomy.php\n"
-"X-Poedit-SearchPath-21: taxonomy-pweb_post_type-news.php\n"
-"X-Poedit-SearchPath-22: taxonomy-pweb_post_type-promo.php\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
 
 #: 404.php:14
 msgid "Document not found"
@@ -51,6 +30,10 @@ msgstr "К сожелению, страница, которую вы искал�
 msgid "It might have been removed or relocated. Try to use the search."
 msgstr ""
 "Возможно, она была удалена или перемещена. Воспользуйтесь функцией поика."
+
+#: attachment.php:24
+msgid "Return to parent page"
+msgstr "Вернуться к родительской странице"
 
 #: comments.php:5
 msgid "LEAVE A COMMENT"
@@ -86,11 +69,11 @@ msgstr "Все права защищены"
 msgid "Developed by"
 msgstr "Разработка"
 
-#: functions.php:123
+#: functions.php:126
 msgid "till "
 msgstr "до "
 
-#: functions.php:150
+#: functions.php:153
 msgid "Promotion"
 msgstr "Акция"
 
