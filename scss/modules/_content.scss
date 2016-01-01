@@ -44,6 +44,9 @@ img {
     &.featured {
         margin-top: -10px !important;
     }
+    &.attachment {
+        margin-bottom: $box-spacing;
+    }
 }
 
 ul,  ol {
@@ -90,6 +93,22 @@ ol ol {
     ol li:before {
         content: "";
         padding-left: 0.625rem;
+    }
+}
+
+.article-attachment {
+    text-align: center;
+    img {
+        display: inline-block;
+    }
+    h3 {
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+    p {
+        margin-bottom: 1em;
+        font-style: italic;
     }
 }
 
