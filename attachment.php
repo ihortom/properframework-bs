@@ -18,7 +18,7 @@
             <?php 
                 $caption = get_the_excerpt();
                 if (trim($caption) != '')
-                echo '<h3>'.preg_replace('/<p>(.*)<\/p>/', '$1', $caption).'</h3>';?>
+                echo '<h3>'.preg_replace('/(<p>)?(.*)(<\/p>)?/', '$2', $caption).'</h3>';?>
             <?php the_content(); //image description ?>
             <p><a href="<?php echo get_permalink($post->post_parent); ?>">
                     <span class="glyphicon glyphicon-level-up"></span><?php _e('Return to parent page', 'properweb'); ?></a></p>

@@ -45,11 +45,11 @@
 </head>
 
 <body>
-    <div id="cap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cap.png" alt="cap image"></div>
+<!--    <div id="cap"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cap.png" alt="cap image"></div>-->
     <div id="wrap">
         <div id="header" class="row">
             <div id="logo" class="large-12 columns">
-                <!--<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="">-->
+                <!--<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Logo" class="img-responsive">-->
                 <?php if (get_option('main_service_type')) : ?>
                 <h2 id="what"><?php echo get_option('main_service_type'); ?></h2>
                 <?php endif; ?>
@@ -63,9 +63,8 @@
             <?php endif; ?>
         </div>
         
-        <?php 
-            include_once 'parts/topbar.php';
-        ?>              
+        <?php include_once get_template_directory().'/parts/topbar.php'; ?>
+        
         <div id="content">	
         <?php 
             // IMPORTANT: Remove default separator in Breadcrumb NavXT settings!!!
