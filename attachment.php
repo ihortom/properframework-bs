@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Attachment
+ * Template: Attachment
  * @package ProperWeb
  * @subpackage ProperFramework-BS
  * @since ProperFramework-BS 1.2

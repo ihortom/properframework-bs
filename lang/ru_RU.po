@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2016-01-01 02:19-0600\n"
-"PO-Revision-Date: 2016-01-01 02:20-0600\n"
+"POT-Creation-Date: 2016-01-04 00:41-0600\n"
+"PO-Revision-Date: 2016-01-04 00:41-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
 "Language: ru_RU\n"
@@ -89,13 +89,13 @@ msgstr "Основная деятельность/Услуги"
 msgid "Online presence since (year)"
 msgstr "Кибернетическое присутсвие с (год)"
 
-#: functions/admin.php:48
+#: functions/admin.php:44
 msgid "The phrase will appear in the header"
 msgstr "Эта фраза появится во главе страницы"
 
-#: functions/admin.php:54
+#: functions/admin.php:50
 msgid "The year will appear in the footer"
-msgstr "Это год отобразится в основании страницы"
+msgstr "Этот год отобразится в основании страницы"
 
 #: functions/cleanup.php:27 functions/cleanup.php:34
 msgid "Read More"
@@ -244,6 +244,10 @@ msgstr "Боковая панель поста"
 #: functions/theme-support.php:10
 msgid "Featured image size"
 msgstr "Размер основного изображения"
+
+#: page-full-width.php:1
+msgid "Full-width page"
+msgstr "Страница на всю ширину"
 
 #: parts/comments-form.php:5
 msgid "Logged in as"

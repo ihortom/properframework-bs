@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2016-01-01 02:19-0600\n"
+"POT-Creation-Date: 2016-01-04 00:40-0600\n"
 "PO-Revision-Date: 2015-11-12 17:18-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
@@ -87,11 +87,11 @@ msgstr ""
 msgid "Online presence since (year)"
 msgstr ""
 
-#: functions/admin.php:48
+#: functions/admin.php:44
 msgid "The phrase will appear in the header"
 msgstr ""
 
-#: functions/admin.php:54
+#: functions/admin.php:50
 msgid "The year will appear in the footer"
 msgstr ""
 
@@ -243,6 +243,10 @@ msgstr ""
 
 #: functions/theme-support.php:10
 msgid "Featured image size"
+msgstr ""
+
+#: page-full-width.php:1
+msgid "Full-width page"
 msgstr ""
 
 #: parts/comments-form.php:5
