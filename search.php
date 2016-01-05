@@ -13,7 +13,7 @@
 <div class="row row-with-sidebar">
     <div class="cell">
         <div class="article article-with-sidebar box full-width">
-            <h2 class="title"><?php _e( 'Search results for:', 'properweb' ); printf( ' "%s"', get_search_query() ); ?></h2>
+            <h2 class="page-header title"><?php _e( 'Search results for:', 'properweb' ); printf( ' "%s"', get_search_query() ); ?></h2>
             <?php if ( have_posts() ) : ?>			
                 <?php while ( have_posts() ) : the_post(); ?>
                 <h3><?php the_title( sprintf( '<a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a>' ); ?></h3>

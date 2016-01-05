@@ -79,7 +79,7 @@ add_shortcode('article', 'pweb_article');
 
 //usage [article title=""]
 function pweb_article( $atts ) {
-    return '<h2 class="title">' . $atts[title] . '</h2>';
+    return '<h2 class="page-header title">' . $atts[title] . '</h2>';
 }
 
 //Create shortcode for promotions to use the featured image as a background image
@@ -159,7 +159,7 @@ function pweb_promo_flash( $atts ) {
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
                             <span class="glyphicon glyphicon-remove"></span>
                         </button>
-                        <h2 id="flashTitle" class="title modal-title">'.strip_tags($promo_post[0]->post_title).'</h2>                   
+                        <h2 id="flashTitle" class="page-header title modal-title">'.strip_tags($promo_post[0]->post_title).'</h2>                   
                     </div>
                     <div class="modal-body">'.
                         wpautop( do_shortcode($promo_post[0]->post_content) ) .

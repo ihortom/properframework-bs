@@ -16,7 +16,7 @@
     <div class="cell">
 <?php if(have_posts()): while(have_posts()): the_post(); ?>
         <div class="article article-with-sidebar box full-width">
-            <h2 class="title"><a class="to-article" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <h2 class="page-header title"><a class="to-article" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             <div class="row meta-data">
                 <p class="col-sm-12 secondary">
                 <time datetime="<?php the_date(); ?>"><span class="glyphicon glyphicon-calendar"></span>
@@ -35,7 +35,7 @@
         </div>
 <?php endwhile; else : ?>
         <div class="article article-with-sidebar box full-width er404">
-            <h2 class="title"><?php _e('No news','properweb'); ?></h2>
+            <h2 class="page-header title"><?php _e('No news','properweb'); ?></h2>
             <h3><?php _e('We currently have no news to share','pweb'); ?></h3>
             <p><?php _e('A news article will appear soon','properweb'); ?></p>
         </div>

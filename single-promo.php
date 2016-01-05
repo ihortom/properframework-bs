@@ -19,7 +19,7 @@
                 //featured image is to be used in the background
                 $featured_image_url = wp_get_attachment_url( get_post_thumbnail_id() ); } ?>	
 
-                <h2 class="title"><?php the_title(); ?></h2>
+                <h2 class="page-header title"><?php the_title(); ?></h2>
                 <?php the_content(); ?>
             </div>
 		
