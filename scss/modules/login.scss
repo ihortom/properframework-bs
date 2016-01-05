@@ -1,11 +1,13 @@
+@import '../base/variables';
+
 body.login {
-    background: #ECFAFF;
+    background: $login-body-background;
 }
 #login {
-    background: #ECFAFF;
+    background: $login-body-background;
 }
 #loginform {
-    background: #A0D3E8;
+    background: $login-form-background;
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
