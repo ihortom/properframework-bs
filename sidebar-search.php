@@ -13,7 +13,7 @@
     </li>       
 
     <li class="widget">		
-        <h3>Posts you might be interested in:</h3>
+        <h3><?php _e('Posts you might be interested in','properweb'); ?>:</h3>
         <ul>
             <?php
                 $args = array( 

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2016-01-04 00:59-0600\n"
+"POT-Creation-Date: 2016-01-05 09:21-0600\n"
 "PO-Revision-Date: 2015-11-12 17:18-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
@@ -295,6 +295,10 @@ msgstr ""
 
 #: search.php:16
 msgid "Search results for:"
+msgstr ""
+
+#: sidebar-search.php:16
+msgid "Posts you might be interested in"
 msgstr ""
 
 #: sidebar.php:37

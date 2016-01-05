@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2016-01-04 00:59-0600\n"
-"PO-Revision-Date: 2016-01-04 00:59-0600\n"
+"POT-Creation-Date: 2016-01-05 09:22-0600\n"
+"PO-Revision-Date: 2016-01-05 09:24-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
 "Language: ru_RU\n"
@@ -298,6 +298,10 @@ msgstr "Контент будет наполнен вскоре."
 #: search.php:16
 msgid "Search results for:"
 msgstr "Результаты поиска:"
+
+#: sidebar-search.php:16
+msgid "Posts you might be interested in"
+msgstr "Статьи, которые могут быть вам интересны"
 
 #: sidebar.php:37
 msgid "Recent "
