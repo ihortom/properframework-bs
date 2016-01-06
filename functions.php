@@ -79,7 +79,17 @@ add_shortcode('article', 'pweb_article');
 
 //usage [article title=""]
 function pweb_article( $atts ) {
-    return '<h2 class="page-header title">' . $atts[title] . '</h2>';
+    $atts = shortcode_atts(
+        array('title' => ''), $atts, 'article' );
+    return '<h2 class="page-header title">' . $atts['title'] . '</h2>';
+}
+
+//create shortcode to make a separate section within the page
+add_shortcode('title', 'pweb_title');
+
+//usage [title]text[/title]
+function pweb_title( $atts, $content = "" ) {
+    return '<h2 class="page-header">' . $content . '</h2>';
 }
 
 //Create shortcode for promotions to use the featured image as a background image
