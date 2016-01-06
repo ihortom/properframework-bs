@@ -190,3 +190,39 @@ function pweb_gallery_shortcode( $attr ) {
 
     return $output;
 }
+
+//get summary of all the galleries
+add_shortcode('galleries', 'pweb_galleries_shortcode');
+
+//usage [galleries]
+function pweb_galleries_shortcode() {
+    $args = array(
+    	'post_type' => 'post',
+        'tax_query' => array(
+            array(
+                'taxonomy' => 'post_format',
+                'field'    => 'slug',
+                'terms'    => array( 'post-format-gallery' )
+            )
+    	),
+	'posts_per_page' => -1
+    );
+    
+    
+    $html_galleries = '';
+    $galleries = new WP_Query( $args );
+    
+    if($galleries->have_posts()): while($galleries->have_posts()): $galleries->the_post(); ?>
+        <?php 
+            if ( has_post_thumbnail() ) {
+                the_post_thumbnail( 'thumbnail', array( 'class' => 'thumbnail alignleft') );
+            }
+        ?>
+        <h2 class="page-header"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+        <?php the_excerpt(); ?>
+        <p class="text-center"><a class="read-more btn btn-primary btn-md round" href="<?php echo get_permalink( get_the_ID() ) ?>"><?php _e('Go to gallery','properweb'); ?></a></p>
+
+    <?php endwhile; endif;
+        
+    return $html_galleries;
+}

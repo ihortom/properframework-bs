@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2016-01-05 22:45-0600\n"
+"POT-Creation-Date: 2016-01-06 01:07-0600\n"
 "PO-Revision-Date: 2015-11-12 17:18-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
@@ -34,7 +34,7 @@ msgstr ""
 msgid "Return to parent page"
 msgstr ""
 
-#: category.php:1
+#: category.php:1 functions/gallery.php:223 taxonomy-post_format.php:1
 msgid "Go to gallery"
 msgstr ""
 
@@ -335,6 +335,10 @@ msgstr ""
 
 #: single.php:1
 msgid "Comments"
+msgstr ""
+
+#: taxonomy-post_format.php:1
+msgid "Galleries"
 msgstr ""
 
 #: taxonomy-pweb_post_type-news.php:38
