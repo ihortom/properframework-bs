@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2016-01-05 09:21-0600\n"
+"POT-Creation-Date: 2016-01-05 22:45-0600\n"
 "PO-Revision-Date: 2015-11-12 17:18-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
@@ -32,6 +32,10 @@ msgstr ""
 
 #: attachment.php:24
 msgid "Return to parent page"
+msgstr ""
+
+#: category.php:1
+msgid "Go to gallery"
 msgstr ""
 
 #: comments.php:5
@@ -67,11 +71,11 @@ msgstr ""
 msgid "Developed by"
 msgstr ""
 
-#: functions.php:126
+#: functions.php:136
 msgid "till "
 msgstr ""
 
-#: functions.php:153
+#: functions.php:163
 msgid "Promotion"
 msgstr ""
 
@@ -241,7 +245,7 @@ msgstr ""
 msgid "Post side widget area."
 msgstr ""
 
-#: functions/theme-support.php:10
+#: functions/theme-support.php:11
 msgid "Featured image size"
 msgstr ""
 

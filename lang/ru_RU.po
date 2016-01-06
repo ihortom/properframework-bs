@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2016-01-05 09:22-0600\n"
-"PO-Revision-Date: 2016-01-05 09:24-0600\n"
+"POT-Creation-Date: 2016-01-05 22:46-0600\n"
+"PO-Revision-Date: 2016-01-05 22:47-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
 "Language: ru_RU\n"
@@ -34,6 +34,10 @@ msgstr ""
 #: attachment.php:24
 msgid "Return to parent page"
 msgstr "Вернуться к родительской странице"
+
+#: category.php:1
+msgid "Go to gallery"
+msgstr "Перейти к галерее"
 
 #: comments.php:5
 msgid "LEAVE A COMMENT"
@@ -69,11 +73,11 @@ msgstr "Все права защищены"
 msgid "Developed by"
 msgstr "Разработка"
 
-#: functions.php:126
+#: functions.php:136
 msgid "till "
 msgstr "до "
 
-#: functions.php:153
+#: functions.php:163
 msgid "Promotion"
 msgstr "Акция"
 
@@ -241,7 +245,7 @@ msgstr "Боковая панель поста"
 msgid "Post side widget area."
 msgstr "Боковая панель поста"
 
-#: functions/theme-support.php:10
+#: functions/theme-support.php:11
 msgid "Featured image size"
 msgstr "Размер основного изображения"
 

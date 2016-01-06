@@ -3,6 +3,7 @@
 //featured image
 add_theme_support( 'post-thumbnails', array( 'post' ) );
 add_image_size( 'post-featured-image', $content_width, 200, true ); // (hard-cropped)
+
 add_filter( 'image_size_names_choose', 'pweb_custom_sizes' );
 
 function pweb_custom_sizes( $sizes ) {
@@ -10,6 +11,8 @@ function pweb_custom_sizes( $sizes ) {
         'pweb-custom-size' => __( 'Featured image size' ),
     ) );
 }
+
+add_theme_support( 'post-formats', array( 'gallery') );
 
 //gets post cat slug and looks for single-[cat slug].php and applies it
 add_filter('single_template', create_function(

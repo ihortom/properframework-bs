@@ -169,6 +169,16 @@ ol ol {
     }
 }
 
+.post-format,
+.post-format-gallery {
+    .page-header {
+        margin-top: $box-spacing;
+    }
+    img {
+        margin-top: $box-spacing;
+    }
+}
+
 //wordpress classes
 .alignright {
     float: right;
