@@ -39,7 +39,7 @@
                 <div class="col-md-12">
                     <label for="comment"><?php _e('Message:','properweb'); ?> *
                         <a href="#" rel="popover" tabindex="0" data-popover-content="#msg_tags" data-trigger="click hover focus">
-                           <span class="glyphicon glyphicon-info-sign"></span></a>
+                           <span class="glyphicon glyphicon-info-sign alert-info"></span></a>
                     </label>
                 </div>
                 <div id="msg_tags" class="hide">

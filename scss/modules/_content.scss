@@ -72,13 +72,12 @@ ol ol {
         margin-left: 3.125rem; 
         font-style: italic; 
         border-left: 1px solid $theme-container-color;
-        padding-top: 0;
     }
     .follow a {
     color: $theme-container-color;
     }
     img.thumbnail {
-        margin-bottom: 5px;
+        margin-bottom: $box-spacing;
     }
     ol,
     ul {

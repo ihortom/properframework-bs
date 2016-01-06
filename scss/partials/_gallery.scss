@@ -26,7 +26,8 @@
         text-shadow: 1px 1px 1px #fff;
         cursor: pointer;
     }
-    img {
+    img.thumbnail {
+        margin: 0;
         transition: 300ms linear;
         -moz-transition: 300ms linear;
         -webkit-transition: 300ms linear;

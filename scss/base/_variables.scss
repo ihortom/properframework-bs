@@ -1,3 +1,4 @@
+@import '../bootstrap/bootstrap/variables';
 
 //Dimensions
 $main-content-max-width: 1000px !default;    //same as $content_width in functions.php
@@ -24,6 +25,7 @@ $footer-default-text-color: $theme-container-color !default;
 $secondary-color: #333 !default;
 $login-body-background: #ECFAFF !default;
 $login-form-background: #A0D3E8 !default;
+$panel-background: $state-info-bg !default;
 
 //Spaces
 $box-spacing: 20px !default;
