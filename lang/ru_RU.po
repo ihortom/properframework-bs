@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
 "POT-Creation-Date: 2016-01-06 01:07-0600\n"
-"PO-Revision-Date: 2016-01-06 01:08-0600\n"
+"PO-Revision-Date: 2016-01-07 13:43-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
 "Language: ru_RU\n"
@@ -115,7 +115,7 @@ msgstr "Ваш комментарий поставлен на одобрение
 
 #: functions/gbook.php:5
 msgid "LEAVE A MESSAGE IN THE GUEST BOOK"
-msgstr "ОСТАВИТЬ ЗАПИСЬ В ГОСТЕВОЕ КНИГЕ"
+msgstr "ОСТАВИТЬ ЗАПИСЬ В ГОСТЕВОЙ КНИГЕ"
 
 #: functions/gbook.php:28
 #, php-format

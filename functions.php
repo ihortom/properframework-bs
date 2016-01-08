@@ -59,8 +59,9 @@ require_once(get_template_directory().'/functions/gallery.php');
 add_shortcode('gbook', 'pweb_gbook');
 //usage [gbook]
 function pweb_gbook() {	
+    global $post;
     ob_start();
-    include('functions/gbook.php');
+    comments_template('/functions/gbook.php');
     $gbook = ob_get_clean(); //Get the buffer and erase it
     return $gbook;
 }

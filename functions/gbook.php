@@ -1,5 +1,4 @@
 <?php if ( comments_open() ) : ?>
-<div>
     <div id="gbook">
 	<div id="respond" class="panel panel-default">
             <h3><?php comment_form_title( __('LEAVE A MESSAGE IN THE GUEST BOOK', 'properweb') ); ?></h3>
@@ -24,9 +23,9 @@
     <?php if ( have_comments() ) : ?>
         <div id="comments">	
                 <h3 class="gbook-stats"><span class="glyphicon glyphicon-comment"></span> 
-                    <?php   
-                        printf( _n( '%1$s message in %2$s', '%1$s messages in %2$s', 
-                            get_comments_number(), 'properweb' ), number_format_i18n( get_comments_number() ), 
+                    <?php
+                        printf( _n( '%1$s message in %2$s', '%1$s messages in %2$s', get_comments(array('post_id' => $post->ID, 'count' => true )),
+                            'properweb' ), number_format_i18n( get_comments(array('post_id' => $post->ID, 'count' => true )) ), 
                             '&#8220;' . __('Guest Book') . '&#8221;' ); 
                     ?>
                 </h3>
@@ -69,7 +68,8 @@
     </div><!-- #gbook -->
 <?php else : ?>
     <div class="alert alert-info text-center">
-        <i class="fa fa-comment-o fa-lg fa-fw"></i>
+        <span class="glyphicon glyphicon-comment"></span>
         <?php _e('Comments are not enabled.','properweb'); ?>
     </div>
 <?php endif; ?>
+</div>
