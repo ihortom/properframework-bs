@@ -43,12 +43,12 @@ label {
 }
 
 .gbook-navigation {
-    width: 77px;
+    width: 4.8125em;
     float: right;
 }
 
 .gbook-navigation.nav-bottom {
-    margin-top: 10px;
+    margin-bottom: $box-spacing;
 }
 
 .gbook-navigation div {
@@ -56,29 +56,25 @@ label {
 }
 
 .gbook-navigation div a {
-    width: 35px;
-    height: 35px;
+    padding: 0.625em;
     text-decoration: none;
-    color: #ED008C;
-    font-size: 28px;
-    font-weight: 700;
+    color: $pagination-color;
+    font-weight: bold;
     display: block;
-    border: 1px solid #FCEDED;
+    border: 1px solid $pagination-border;
     vertical-align: middle;
     cursor: pointer;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    box-shadow: 2px 2px 0 rgba(34, 25, 25, 0.4);
-    -moz-box-shadow: 2px 2px 0 rgba(34,25,25,0.4);
-    -webkit-box-shadow: 2px 2px 0 rgba(34, 25, 25, 0.4);
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
+    &:hover {
+    color: $pagination-hover-color;
+    background-color: $pagination-hover-bg;
+    border-color: $pagination-hover-border;
+    .glyphicon:before {
+        padding: 0 !important;
+    }
 }
-
-.gbook-navigation div a:hover {
-    background-color: #F5D4CF;
 }
 
 #content ul.comment-list,

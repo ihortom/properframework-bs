@@ -20,20 +20,21 @@
         </div>
 	
 <!-- COMMENTS -->
+<?php if ( !is_user_logged_in() ) : ?>
     <?php if ( have_comments() ) : ?>
         <div id="comments">	
                 <h3 class="gbook-stats"><span class="glyphicon glyphicon-comment"></span> 
                     <?php
                         printf( _n( '%1$s message in %2$s', '%1$s messages in %2$s', get_comments(array('post_id' => $post->ID, 'count' => true )),
                             'properweb' ), number_format_i18n( get_comments(array('post_id' => $post->ID, 'count' => true )) ), 
-                            '&#8220;' . __('Guest Book') . '&#8221;' ); 
+                            '&#8220;' . __('Guest Book','properweb') . '&#8221;' ); 
                     ?>
                 </h3>
 
                 <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
                 <div class="gbook-navigation nav-top">
-                        <div class="alignright"><?php previous_comments_link(' » ') ?></div>
-                        <div class="alignright"><?php next_comments_link(' « ') ?></div>
+                        <div class="alignright"><?php previous_comments_link(' <span class="glyphicon glyphicon-forward"></span> ') ?></div>
+                        <div class="alignright"><?php next_comments_link(' <span class="glyphicon glyphicon-backward"></span> ') ?></div>
                 </div>
                 <div class="clearfix"></div>
                 <?php endif; // check for comment navigation ?>
@@ -44,8 +45,8 @@
 
                 <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
                 <div class="gbook-navigation nav-bottom">
-                        <div class="right"><?php previous_comments_link(' » ') ?></div>
-                        <div class="right"><?php next_comments_link(' « ') ?></div>
+                        <div class="alignright"><?php previous_comments_link(' <span class="glyphicon glyphicon-forward"></span> ') ?></div>
+                        <div class="alignright"><?php next_comments_link(' <span class="glyphicon glyphicon-backward"></span> ') ?></div>
                 </div>
                 <div class="clearfix"></div>
                 <?php endif; // check for comment navigation ?>
@@ -54,17 +55,17 @@
 
             <div class="alert alert-info text-center">
                 <span class="glyphicon glyphicon-info-sign"></span>
-            <?php 
-                if ( comments_open() ) {
-                    _e('There are no messages yet. Be the first to leave a message.','properweb');
-                }
-                else {
-                    _e('Comments are closed.');
-                }
-            ?>
-                </div>
-        </div>
-        <?php endif; ?>
+                <?php 
+                    if ( comments_open() ) {
+                        _e('There are no messages yet. Be the first to leave a message.','properweb');
+                    }
+                    else {
+                        _e('Comments are closed.');
+                    }
+                ?>
+            </div>
+        </div><!-- #comments -->
+        <?php endif; endif; ?>
     </div><!-- #gbook -->
 <?php else : ?>
     <div class="alert alert-info text-center">
@@ -72,4 +73,4 @@
         <?php _e('Comments are not enabled.','properweb'); ?>
     </div>
 <?php endif; ?>
-</div>
+<?php if ( !is_user_logged_in() ) : ?></div><?php endif; ?>

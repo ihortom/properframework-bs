@@ -30,8 +30,8 @@
 
                 <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
                 <div class="gbook-navigation nav-top">
-                        <div class="alignright"><?php previous_comments_link(' » ') ?></div>
-                        <div class="alignright"><?php next_comments_link(' « ') ?></div>
+                        <div class="alignright"><?php previous_comments_link(' <span class="glyphicon glyphicon-forward"></span> ') ?></div>
+                        <div class="alignright"><?php next_comments_link(' <span class="glyphicon glyphicon-backward"></span> ') ?></div>
                 </div>
                 <div class="clearfix"></div>
                 <?php endif; // check for comment navigation ?>
@@ -42,8 +42,8 @@
 
                 <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
                 <div class="gbook-navigation nav-bottom">
-                        <div class="right"><?php previous_comments_link(' » ') ?></div>
-                        <div class="right"><?php next_comments_link(' « ') ?></div>
+                        <div class="alignright"><?php previous_comments_link(' <span class="glyphicon glyphicon-forward"></span> ') ?></div>
+                        <div class="alignright"><?php next_comments_link(' <span class="glyphicon glyphicon-backward"></span> ') ?></div>
                 </div>
                 <div class="clearfix"></div>
                 <?php endif; // check for comment navigation ?>

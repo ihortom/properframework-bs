@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2016-01-06 01:07-0600\n"
-"PO-Revision-Date: 2016-01-07 13:43-0600\n"
+"POT-Creation-Date: 2016-01-07 22:05-0600\n"
+"PO-Revision-Date: 2016-01-07 22:05-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
 "Language: ru_RU\n"
@@ -43,7 +43,7 @@ msgstr "Перейти к галерее"
 msgid "LEAVE A COMMENT"
 msgstr "Написать комментарий"
 
-#: comments.php:12 functions/gbook.php:12
+#: comments.php:12 functions/gbook.php:11
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
@@ -61,7 +61,7 @@ msgstr[2] "%1$s комментариев"
 msgid "There are no comments yet. Be the first to leave a comment."
 msgstr "Ни одного комментария никем оставлено еще не было. Будьте первыми."
 
-#: comments.php:60 functions/gbook.php:63
+#: comments.php:60 functions/gbook.php:62
 msgid "Comments are closed."
 msgstr "Комментарии закрыты."
 
@@ -73,11 +73,11 @@ msgstr "Все права защищены"
 msgid "Developed by"
 msgstr "Разработка"
 
-#: functions.php:136
+#: functions.php:137
 msgid "till "
 msgstr "до "
 
-#: functions.php:163
+#: functions.php:164
 msgid "Promotion"
 msgstr "Акция"
 
@@ -113,11 +113,11 @@ msgstr "(Редактировать)"
 msgid "Your comment is awaiting approval."
 msgstr "Ваш комментарий поставлен на одобрение."
 
-#: functions/gbook.php:5
+#: functions/gbook.php:4
 msgid "LEAVE A MESSAGE IN THE GUEST BOOK"
 msgstr "ОСТАВИТЬ ЗАПИСЬ В ГОСТЕВОЙ КНИГЕ"
 
-#: functions/gbook.php:28
+#: functions/gbook.php:27
 #, php-format
 msgid "%1$s message in %2$s"
 msgid_plural "%1$s messages in %2$s"
@@ -125,15 +125,15 @@ msgstr[0] "%1$s запись в %2$s"
 msgstr[1] "%1$s записи в %2$s"
 msgstr[2] "%1$s записей в %2$s"
 
-#: functions/gbook.php:30
+#: functions/gbook.php:29
 msgid "Guest Book"
 msgstr "Гостевой книге"
 
-#: functions/gbook.php:60
+#: functions/gbook.php:59
 msgid "There are no messages yet. Be the first to leave a message."
 msgstr "Ни одной записи никем оставлено еще не было. Будьте первыми."
 
-#: functions/gbook.php:73
+#: functions/gbook.php:72
 msgid "Comments are not enabled."
 msgstr "Комментарии отключены"
 
