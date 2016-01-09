@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2016-01-07 22:05-0600\n"
-"PO-Revision-Date: 2016-01-07 22:05-0600\n"
+"POT-Creation-Date: 2016-01-09 00:28-0600\n"
+"PO-Revision-Date: 2016-01-09 00:31-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
 "Language: ru_RU\n"
@@ -61,7 +61,7 @@ msgstr[2] "%1$s комментариев"
 msgid "There are no comments yet. Be the first to leave a comment."
 msgstr "Ни одного комментария никем оставлено еще не было. Будьте первыми."
 
-#: comments.php:60 functions/gbook.php:62
+#: comments.php:60 functions/gbook.php:63
 msgid "Comments are closed."
 msgstr "Комментарии закрыты."
 
@@ -117,7 +117,7 @@ msgstr "Ваш комментарий поставлен на одобрение
 msgid "LEAVE A MESSAGE IN THE GUEST BOOK"
 msgstr "ОСТАВИТЬ ЗАПИСЬ В ГОСТЕВОЙ КНИГЕ"
 
-#: functions/gbook.php:27
+#: functions/gbook.php:28
 #, php-format
 msgid "%1$s message in %2$s"
 msgid_plural "%1$s messages in %2$s"
@@ -125,15 +125,15 @@ msgstr[0] "%1$s запись в %2$s"
 msgstr[1] "%1$s записи в %2$s"
 msgstr[2] "%1$s записей в %2$s"
 
-#: functions/gbook.php:29
+#: functions/gbook.php:30
 msgid "Guest Book"
 msgstr "Гостевой книге"
 
-#: functions/gbook.php:59
+#: functions/gbook.php:60
 msgid "There are no messages yet. Be the first to leave a message."
 msgstr "Ни одной записи никем оставлено еще не было. Будьте первыми."
 
-#: functions/gbook.php:72
+#: functions/gbook.php:73
 msgid "Comments are not enabled."
 msgstr "Комментарии отключены"
 
@@ -166,24 +166,28 @@ msgid "Title"
 msgstr "Заголовок"
 
 #: functions/meta.php:120
-msgid "Meta tag \"title\". If omitted, page/post title will be used instead."
-msgstr "Мета-тэг <title>. По умолчанию изпользуется заголовок статьи/страницы."
+msgid ""
+"Meta tag &lt;title&gt;. If omitted, page/post title will be used instead."
+msgstr ""
+"Мета-тэг &lt;title&gt;. По умолчанию изпользуется заголовок статьи/страницы."
 
 #: functions/meta.php:128
 msgid "Description"
 msgstr "Описание"
 
 #: functions/meta.php:129
-msgid "Meta tag \"description\". Recommended up to 155 characters."
-msgstr "Мета-тэг <description>. Рекоммендуемая длина до 155 символов."
+msgid "Meta tag &lt;description&gt;. Recommended up to 155 characters."
+msgstr "Мета-тэг &lt;description&gt;. Рекоммендуемая длина до 155 символов."
 
 #: functions/meta.php:137
 msgid "Keywords"
 msgstr "Ключевые слова"
 
 #: functions/meta.php:138
-msgid "Meta tag \"keywords\". Recommended up to 170 characters (5-10 words)."
-msgstr "Мета-тэг <keywords>. Рекоммендуемая длина до 170 символов (5-10 слов)."
+msgid ""
+"Meta tag &lt;keywords&gt;. Recommended up to 170 characters (5-10 words)."
+msgstr ""
+"Мета-тэг &lt;keywords&gt;. Рекоммендуемая длина до 170 символов (5-10 слов)."
 
 #: functions/pagination.php:24
 msgid "Previous"
@@ -253,37 +257,37 @@ msgstr "Размер основного изображения"
 msgid "Full-width page"
 msgstr "Страница на всю ширину"
 
-#: parts/comments-form.php:5
+#: parts/comments-form.php:6
 msgid "Logged in as"
 msgstr "Вошли в систему как"
 
-#: parts/comments-form.php:6
+#: parts/comments-form.php:8
 msgid "Log out"
 msgstr "Выйти"
 
-#: parts/comments-form.php:9
+#: parts/comments-form.php:13
 msgid "Your e-mail will not be shared. All the fields are mandatory."
 msgstr ""
 "Ваш e-mail не будет передан третьим лицам. Все поля обязательны для "
 "заполнения."
 
-#: parts/comments-form.php:16
+#: parts/comments-form.php:19
 msgid "Name:"
 msgstr "Имя:"
 
-#: parts/comments-form.php:27
+#: parts/comments-form.php:30
 msgid "Email:"
 msgstr "Эл. почта:"
 
-#: parts/comments-form.php:40
+#: parts/comments-form.php:43
 msgid "Message:"
 msgstr "Сообщение:"
 
-#: parts/comments-form.php:47
+#: parts/comments-form.php:50
 msgid "Allowed HTML tags"
 msgstr "Разрешены HTML теги:"
 
-#: parts/comments-form.php:63
+#: parts/comments-form.php:61
 msgid "Submit"
 msgstr "Отправить"
 
@@ -366,6 +370,19 @@ msgstr "В настоящий момент акции/скидки не пров
 #: taxonomy-pweb_post_type-promo.php:25
 msgid "Please, come back soon."
 msgstr "Пожалуста, возвращайтесь на эту страницу позднее."
+
+#~ msgid ""
+#~ "Meta tag \"title\". If omitted, page/post title will be used instead."
+#~ msgstr ""
+#~ "Мета-тэг <title>. По умолчанию изпользуется заголовок статьи/страницы."
+
+#~ msgid "Meta tag \"description\". Recommended up to 155 characters."
+#~ msgstr "Мета-тэг <description>. Рекоммендуемая длина до 155 символов."
+
+#~ msgid ""
+#~ "Meta tag \"keywords\". Recommended up to 170 characters (5-10 words)."
+#~ msgstr ""
+#~ "Мета-тэг <keywords>. Рекоммендуемая длина до 170 символов (5-10 слов)."
 
 #~ msgid ""
 #~ "Flash promo you would like to appear on the page (HTML code, shortcode)."

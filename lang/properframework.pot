@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2016-01-06 01:07-0600\n"
+"POT-Creation-Date: 2016-01-09 00:27-0600\n"
 "PO-Revision-Date: 2015-11-12 17:18-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
@@ -42,7 +42,7 @@ msgstr ""
 msgid "LEAVE A COMMENT"
 msgstr ""
 
-#: comments.php:12 functions/gbook.php:12
+#: comments.php:12 functions/gbook.php:11
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
@@ -71,11 +71,11 @@ msgstr ""
 msgid "Developed by"
 msgstr ""
 
-#: functions.php:136
+#: functions.php:137
 msgid "till "
 msgstr ""
 
-#: functions.php:163
+#: functions.php:164
 msgid "Promotion"
 msgstr ""
 
@@ -111,7 +111,7 @@ msgstr ""
 msgid "Your comment is awaiting approval."
 msgstr ""
 
-#: functions/gbook.php:5
+#: functions/gbook.php:4
 msgid "LEAVE A MESSAGE IN THE GUEST BOOK"
 msgstr ""
 
@@ -165,7 +165,7 @@ msgstr ""
 
 #: functions/meta.php:120
 msgid ""
-"Meta tag \"title\". If omitted, page/post title will be used instead."
+"Meta tag &lt;title&gt;. If omitted, page/post title will be used instead."
 msgstr ""
 
 #: functions/meta.php:128
@@ -173,7 +173,7 @@ msgid "Description"
 msgstr ""
 
 #: functions/meta.php:129
-msgid "Meta tag \"description\". Recommended up to 155 characters."
+msgid "Meta tag &lt;description&gt;. Recommended up to 155 characters."
 msgstr ""
 
 #: functions/meta.php:137
@@ -182,7 +182,7 @@ msgstr ""
 
 #: functions/meta.php:138
 msgid ""
-"Meta tag \"keywords\". Recommended up to 170 characters (5-10 words)."
+"Meta tag &lt;keywords&gt;. Recommended up to 170 characters (5-10 words)."
 msgstr ""
 
 #: functions/pagination.php:24
@@ -253,35 +253,35 @@ msgstr ""
 msgid "Full-width page"
 msgstr ""
 
-#: parts/comments-form.php:5
+#: parts/comments-form.php:6
 msgid "Logged in as"
 msgstr ""
 
-#: parts/comments-form.php:6
+#: parts/comments-form.php:8
 msgid "Log out"
 msgstr ""
 
-#: parts/comments-form.php:9
+#: parts/comments-form.php:13
 msgid "Your e-mail will not be shared. All the fields are mandatory."
 msgstr ""
 
-#: parts/comments-form.php:16
+#: parts/comments-form.php:19
 msgid "Name:"
 msgstr ""
 
-#: parts/comments-form.php:27
+#: parts/comments-form.php:30
 msgid "Email:"
 msgstr ""
 
-#: parts/comments-form.php:40
+#: parts/comments-form.php:43
 msgid "Message:"
 msgstr ""
 
-#: parts/comments-form.php:47
+#: parts/comments-form.php:50
 msgid "Allowed HTML tags"
 msgstr ""
 
-#: parts/comments-form.php:63
+#: parts/comments-form.php:61
 msgid "Submit"
 msgstr ""
 

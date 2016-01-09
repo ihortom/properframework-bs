@@ -117,7 +117,7 @@ function pweb_register_meta_boxes( $meta_boxes )
                 // Field ID, i.e. the meta key
                 'id'    => "{$prefix}title",
                 // Field description (optional)
-                'desc'  => __( 'Meta tag "title". If omitted, page/post title will be used instead.', 'properweb' ),
+                'desc'  => __( 'Meta tag &lt;title&gt;. If omitted, page/post title will be used instead.', 'properweb' ),
                 'type'  => 'text',
                 // CLONES: Add to make the field cloneable (i.e. have multiple value)
                 'clone' => false,
@@ -126,7 +126,7 @@ function pweb_register_meta_boxes( $meta_boxes )
             // TEXTAREA
             array(
                 'name' => __( 'Description', 'properweb' ),
-                'desc' => __( 'Meta tag "description". Recommended up to 155 characters.', 'properweb' ),
+                'desc' => __( 'Meta tag &lt;description&gt;. Recommended up to 155 characters.', 'properweb' ),
                 'id'   => "{$prefix}description",
                 'type' => 'textarea',
                 'cols' => 20,
@@ -135,7 +135,7 @@ function pweb_register_meta_boxes( $meta_boxes )
             // TEXTAREA
             array(
                 'name' => __( 'Keywords', 'meta-box' ),
-                'desc' => __( 'Meta tag "keywords". Recommended up to 170 characters (5-10 words).', 'properweb' ),
+                'desc' => __( 'Meta tag &lt;keywords&gt;. Recommended up to 170 characters (5-10 words).', 'properweb' ),
                 'id'   => "{$prefix}keywords",
                 'type' => 'textarea',
                 'cols' => 20,
