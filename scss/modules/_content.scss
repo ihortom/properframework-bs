@@ -25,6 +25,15 @@ img {
     box-shadow: 2px 2px 2px $theme-container-color;
     -moz-box-shadow: 2px 2px 2px $theme-container-color;
     -webkit-box-shadow: 2px 2px 2px $theme-container-color;
+    &.wp-smiley {
+        border: 0;
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+    }
     &.alignright {
         border: 1px solid $theme-container-color;
         padding: 5px;

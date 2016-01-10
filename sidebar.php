@@ -16,16 +16,18 @@
             </li>
             <?php if ( is_single() ) : ?>
             
-            <?php $pweb_term = get_the_terms($post->ID, 'pweb_post_type');
+            <?php 
+            $pweb_tax = (taxonomy_exists('pweb_post_type'))?'pweb_post_type':'category';
+            $pweb_term = get_the_terms($post->ID, $pweb_tax);
             if ($pweb_term && !in_array($pweb_term[0]->name, array('Standard'))) : ?>
-                <li class="widget">	
+                <li class="widget"><br>	
                 <?php    
                     $args = array(
                         'post__not_in' => array($post->ID),
                         'posts_per_page'=>10,
                         'tax_query' => array(
                                 array(
-                                    'taxonomy' => 'pweb_post_type',
+                                    'taxonomy' => $pweb_tax ,
                                     'field'    => 'slug',
                                     'terms'    => $pweb_term[0]->slug
                                 )
@@ -34,7 +36,7 @@
                     $current_pweb_term = $pweb_term[0]->name;
                 $query = new WP_Query( $args );
                 if( $query->have_posts() ) : ?>
-                    <h3 class="widget-title"><?php _e('Recent ','properweb'); the_terms($post->ID, 'pweb_post_type'); ?></h3>
+                    <h3 class="widget-title"><?php _e('Recent ','properweb'); the_terms($post->ID, $pweb_tax); ?></h3>
                     <ul>
                     <?php while ($query->have_posts()) : $query->the_post(); ?>
                         <li class="page_item page-item-<?php echo $post->ID; ?>">
@@ -43,7 +45,7 @@
                     </ul>
                 <?php else: ?>
                     <p><?php _e('This is the only post of the category ', 'properweb'); 
-                        the_terms($post->ID, 'pweb_post_type'); ?></p>
+                        the_terms($post->ID, $pweb_tax); ?></p>
                 <?php endif; 
                     wp_reset_query(); ?>
                 </li>
@@ -62,7 +64,7 @@
                 );
                 $terms = get_terms( $taxonomies, $args ); //Array of term objects
                 if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) : ?>
-                <li class="widget">	    
+                <li class="widget">
                     <h3><?php echo (in_array($pweb_term[0]->name, array('Standard'))) 
                                 ? __('Available ', 'properweb'): __('Other ', 'properweb'); 
                                 _e('categories', 'properweb')?>
