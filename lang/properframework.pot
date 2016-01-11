@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2016-01-09 00:27-0600\n"
+"POT-Creation-Date: 2016-01-10 22:15-0600\n"
 "PO-Revision-Date: 2015-11-12 17:18-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
@@ -305,27 +305,27 @@ msgstr ""
 msgid "Posts you might be interested in"
 msgstr ""
 
-#: sidebar.php:37
+#: sidebar.php:39
 msgid "Recent "
 msgstr ""
 
-#: sidebar.php:45
+#: sidebar.php:47
 msgid "This is the only post of the category "
 msgstr ""
 
-#: sidebar.php:67
+#: sidebar.php:69
 msgid "Available "
 msgstr ""
 
-#: sidebar.php:67
+#: sidebar.php:69
 msgid "Other "
 msgstr ""
 
-#: sidebar.php:68
+#: sidebar.php:70
 msgid "categories"
 msgstr ""
 
-#: sidebar.php:82
+#: sidebar.php:84
 msgid "Recent Posts"
 msgstr ""
 

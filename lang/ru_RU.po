@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2016-01-09 00:28-0600\n"
-"PO-Revision-Date: 2016-01-09 00:31-0600\n"
+"POT-Creation-Date: 2016-01-10 22:15-0600\n"
+"PO-Revision-Date: 2016-01-10 22:15-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
 "Language: ru_RU\n"
@@ -311,27 +311,27 @@ msgstr "Результаты поиска:"
 msgid "Posts you might be interested in"
 msgstr "Статьи, которые могут быть вам интересны"
 
-#: sidebar.php:37
+#: sidebar.php:39
 msgid "Recent "
 msgstr "Последние "
 
-#: sidebar.php:45
+#: sidebar.php:47
 msgid "This is the only post of the category "
 msgstr "Это единственная публикация категории "
 
-#: sidebar.php:67
+#: sidebar.php:69
 msgid "Available "
 msgstr "Доступные "
 
-#: sidebar.php:67
+#: sidebar.php:69
 msgid "Other "
 msgstr "Другии "
 
-#: sidebar.php:68
+#: sidebar.php:70
 msgid "categories"
 msgstr "рубрики"
 
-#: sidebar.php:82
+#: sidebar.php:84
 msgid "Recent Posts"
 msgstr "Последние публикации"
 

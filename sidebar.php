@@ -20,7 +20,7 @@
             $pweb_tax = (taxonomy_exists('pweb_post_type'))?'pweb_post_type':'category';
             $pweb_term = get_the_terms($post->ID, $pweb_tax);
             if ($pweb_term && !in_array($pweb_term[0]->name, array('Standard'))) : ?>
-                <li class="widget"><br>	
+                <li class="widget">
                 <?php    
                     $args = array(
                         'post__not_in' => array($post->ID),
@@ -95,9 +95,7 @@
                     ?>
                 </ul>
             </li>
-            <?php endif; 
-                dynamic_sidebar( 'Post Aside' );
-            ?>
+            <?php endif; ?>
 	</ul>
     </div>
 </div>
