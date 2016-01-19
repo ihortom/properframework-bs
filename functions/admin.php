@@ -23,7 +23,7 @@ function pweb_general_section() {
         )  
     ); 
 		
-		add_settings_field( 
+    add_settings_field( 
         'online_since_year', // Option ID
         __('Online presence since (year)','properweb'), // Label
         'pweb_online_since_year_callback', // !important - This is where the args go!
@@ -38,16 +38,20 @@ function pweb_general_section() {
 		register_setting('general','online_since_year', 'esc_attr');
 }
 
+function pweb_section_options_callback($args) {
+    echo '<p><em>' . __('Additional theme features','properweb') . '</em></p>';
+}
+
 function pweb_organization_type_callback($args) {  // Textbox Callback
     $option = get_option($args[0]);
     echo '<input type="text" id="'. $args[0] .'" class="regular-text" name="'. $args[0] .'" value="' . $option . '" />';
-		echo '<br><p><em>'; _e('The phrase will appear in the header','properweb'); echo '</em></p>';
+    echo '<br><p><em>'; _e('The phrase will appear in the header','properweb'); echo '</em></p>';
 }
 
 function pweb_online_since_year_callback($args) {  // Textbox Callback
     $option = get_option($args[0]);
     echo '<input type="text" id="'. $args[0] .'" name="'. $args[0] .'" value="' . $option . '" />';
-		echo '<br><p><em>'; _e('The year will appear in the footer','properweb'); echo '</em></p>';
+    echo '<br><p><em>'; _e('The year will appear in the footer','properweb'); echo '</em></p>';
 }
 
 ?>

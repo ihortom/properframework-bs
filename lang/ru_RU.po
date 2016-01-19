@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ProperFramework\n"
-"POT-Creation-Date: 2016-01-10 22:15-0600\n"
-"PO-Revision-Date: 2016-01-10 22:15-0600\n"
+"POT-Creation-Date: 2016-01-18 18:28-0600\n"
+"PO-Revision-Date: 2016-01-18 18:29-0600\n"
 "Last-Translator: \n"
 "Language-Team: ProperWeb <info@properweb.ca>\n"
 "Language: ru_RU\n"
@@ -93,11 +93,15 @@ msgstr "Основная деятельность/Услуги"
 msgid "Online presence since (year)"
 msgstr "Кибернетическое присутсвие с (год)"
 
-#: functions/admin.php:44
+#: functions/admin.php:42
+msgid "Additional theme features"
+msgstr "Дополнительные свойства темы"
+
+#: functions/admin.php:48
 msgid "The phrase will appear in the header"
 msgstr "Эта фраза появится во главе страницы"
 
-#: functions/admin.php:50
+#: functions/admin.php:54
 msgid "The year will appear in the footer"
 msgstr "Этот год отобразится в основании страницы"
 
@@ -253,10 +257,6 @@ msgstr "Боковая панель поста"
 msgid "Featured image size"
 msgstr "Размер основного изображения"
 
-#: page-full-width.php:1
-msgid "Full-width page"
-msgstr "Страница на всю ширину"
-
 #: parts/comments-form.php:6
 msgid "Logged in as"
 msgstr "Вошли в систему как"
@@ -370,6 +370,9 @@ msgstr "В настоящий момент акции/скидки не пров
 #: taxonomy-pweb_post_type-promo.php:25
 msgid "Please, come back soon."
 msgstr "Пожалуста, возвращайтесь на эту страницу позднее."
+
+#~ msgid "Full-width page"
+#~ msgstr "Страница на всю ширину"
 
 #~ msgid ""
 #~ "Meta tag \"title\". If omitted, page/post title will be used instead."
